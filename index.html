@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Yi Yang</h1>
+            <h2>#Software Engineer, #Oboe Player, #Sports Fan</h2>
+            <a href="./resume/YiYang_resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        My name is Yi Yang. 
+                        I got my bachelor at Southeast University in China and is now a master student majoring in Electrical Engineering at Columbia University. 
+                        I am an experienced software development engineer. I am proficient in C/C++ and python development and has one year full-time work experience related to computer vision in Yijiahe technology, which is a leading company in robotics and autonomous in China.
+                        Besides, I also have solid knowledge in databases and large scale distributed systems.
+                        During my spare time, I am also an amatuer Oboe and Saxophone player, a soccer, basketball and Formula 1 fan. My passion lies in technology, art and sports.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="May 2022 – Aug 2022">
+                <h3>Zscaler, Inc.</h3>
+                <h4>Software Development Engineer Intern</h4>
+                <ul>
+                    <li>
+                        Created a disaster-recovery activation DNS record generator tool in C++ for Windows system that interacts with users and produces multipart DR activation DNS text records.
+                    </li>
+                    <li>
+                        Constructed an encryption library based on OpenSSL for the DR activation tool to generate RSA key pairs, sign and verify DR activation DNS text records.
+                    </li>
+                    <li>
+                        Implemented a workflow with Jenkins on continuous integration and continuous deployment of MicrosoftVisual Studio Solutions for the team.                    
+                    </li>
+                    <li>
+                        Helped customers without disaster-recovery background knowledge generate DR activation text records in standard format unde Windows systems.
+                    </li>
+                </ul>
+            </div>
+
+            <div data-date="Jun 2020 – Jul 2021">
+                <h3>Yijiahe Technology Co., Ltd.</h3>
+                <h4>Full-time Software Development Engineer</h4>
+                <ul>
+                    <li>
+                        Individually devised and built an environment modelling and object detection/segmentation system for a multi-sensor robot hardware platform in outdoor electric power operation work.
+                    </li>
+                    <li>
+                        Developed a sensor joint calibration software in C++ to calculate transformation matrix based on OpenCV and Eigen to merge data from RGB camera and depth camera to build 3D models of the environment.
+                    </li>
+                    <li>
+                        Trained and applied Mask R-CNN to conduct Instance Segmentation based on PyTorch and refined model structure and parameters to adapt to variant image quality.                    
+                    </li>
+                    <li>
+                        Combined the above components into a low-latency Image Segmentation library in C++ based on libtorch and torchvision.
+                    </li>
+                    <li>
+                        Deployed this system on new generation of electrical power operation robots, reached > 98% precision in real fieldwork and automate manual labor with existing hardware platform.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Columbia University</h3>
+            <span class="education-date">Sep 2021 - Dec 2022</span>
+            <h4>Master of Science in Electrical and Computer Engineering</h4>
+            <ul>
+                <li>
+                    GPA: 4.08 / 4.33.
+                </li>
+                <li>
+                    MS Honors Student (top 5%).
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Southeast University</h3>
+            <span class="education-date">Aug 2016 - Jun 2020</span>
+            <h4>Bachelor of Engineering in Information Science and Technology</h4>
+            <ul>
+                <li>
+                    GPA: 3.7 / 4.0.
+                </li>
+                <li>
+                    Meritorious Winner in Interdisciplinary Contest In Modeling.
+                </li>
+                <li>
+                    National first prize in China Undergraduate Mathematical Contest in Modeling.
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/coinroof.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>NFT Trading Platform</h3>
+                        <p>
+                            A marketplace for NFT displaying and trading based on Solidity, Express.js, Web3.js, HTML5 and CSS3.
+                         </p>
+                        <a href="https://github.com/yaannnik/CoinRoof">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/image-label.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Automatic Image Labelling System</h3>
+                        <p>
+                            An automatic image labelling system based on PyTorch, OpenCV, Flask and React, which will automate human labour in image labelling for computer vision tasks.                    
+                        </p>
+                        <a href="https://github.com/yaannnik/Automatic-Image-Labelling-System">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Go</li>
+            <li>MATLAB</li>
+            <li>Shell Programming</li>
+            <li>Latex</li>
+            <li>Git</li>
+            <li>UNIX/Linux</li>
+            <li>Visual Studio</li>
+            <li>PyTorch</li>
+            <li>OpenCV</li>
+            <li>OpenSSL</li>
+            <li>C++ STL</li>
+            <li>CMake</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>Neo4j</li>
+            <li>MongoDB</li>
+            <li>Flask</li>
+            <li>Spark</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/yaannnikk@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/yaannnik/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li> -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/yiyang-columbiaee/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/yang.yi.0414/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
